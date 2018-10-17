@@ -16,28 +16,13 @@ object Main extends App {
             if (x<y) x::mergeInScala(xs1, ys)
             else y::mergeInScala(xs, ys1)
 
-
-
-
-
       }
 
       val(left,right) = xs splitAt(n)
-
       mergeInScala(mergeSortInScala(left), mergeSortInScala(right))
-
 
     }
 
-
-
-
-
   }
-
-
-
-
-
 
 }
